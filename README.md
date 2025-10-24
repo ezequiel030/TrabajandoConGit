@@ -1,6 +1,7 @@
+<div align="center">
+  
+# Trabajando con Git
 
-<div align="center"> 
-# Trabajando con Git 
 </div>
 
 
