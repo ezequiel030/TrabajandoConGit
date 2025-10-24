@@ -1,4 +1,6 @@
+<div align="center"> 
 # Guía completa para trabajar con Git y GitHub
+</div>
 
 Git es un **sistema de control de versiones** que te permite registrar los cambios que realizas en tus proyectos, colaborar con otros desarrolladores y mantener un historial ordenado del desarrollo de tu código.  
 GitHub es una plataforma donde puedes **alojar tus repositorios de Git en la nube** para compartirlos o trabajar en equipo.
@@ -7,7 +9,9 @@ Esta guía te explica cómo trabajar con **Git en local** y luego cómo conectar
 
 ---
 
+<div align="center"> 
 ##  1. Instalación y configuración inicial
+</div>
 
 ### Instalar Git
 
@@ -37,7 +41,9 @@ git config --global user.email "tuemail@ejemplo.com"
 ```bash
 git config --list
 ```
+<div align="center"> 
 ## 2. Definir la rama principal “main” por defecto
+</div>
 
 ***Git solía usar “master” como rama principal, pero ahora se recomienda usar main.
 Para establecerla por defecto en todos tus nuevos repositorios:***
@@ -53,7 +59,9 @@ git config --global --get init.defaultBranch
 ```bash
 git branch -m master main
 ```
+<div align="center"> 
 ## 3. Crear un nuevo repositorio local
+</div>
 
 ***Crea una carpeta para tu proyecto y entra en ella:***
 ```bash
@@ -64,7 +72,9 @@ cd mi-proyecto
 ```bash
 git init
 ```
+<div align="center"> 
 ## 4. Añadir archivos y hacer el primer commit
+</div>
 
 ***Crea un archivo (por ejemplo, un README):***
 ```bash
@@ -78,7 +88,9 @@ git add README.md
 ```bash
 git commit -m "Primer commit: agregar README"
 ```
+<div align="center"> 
 ## 5. Ver el estado y el historial de cambios
+</div>
 
 ***Ver el estado actual del repositorio:***
 ```bash
@@ -92,7 +104,9 @@ git log
 ```bash
 git log --oneline
 ```
+<div align="center"> 
 ## 6. Ramas y cambios de contexto
+</div>
 
 ***Las ramas permiten trabajar en nuevas funciones sin afectar el código principal.***
 
@@ -120,7 +134,9 @@ git switch nueva-funcion
 ```bash
 git checkout main
 ```
+<div align="center"> 
 ## 7. Ignorar archivos con .gitignore
+</div>
 
 ***El archivo .gitignore le indica a Git qué archivos o carpetas no debe rastrear (por ejemplo, archivos temporales, dependencias o contraseñas).***
 
@@ -144,7 +160,9 @@ build/
 ```bash
 touch .gitignore
 ```
+<div align="center"> 
 ## 8. Flujo de trabajo básico
+</div>
 
 ***Cada vez que hagas cambios:***
 ```bash
@@ -156,7 +174,10 @@ git commit -m "Descripción del cambio"
 ```bash
 git log --oneline
 ```
+<div align="center"> 
 ## 9. Conectar tu repositorio local con GitHub
+</div>
+
 ***Crear un repositorio en GitHub***
 
 ***Entra a [GitHub](https://github.com)***
@@ -190,7 +211,10 @@ git push
 ```bash
 git pull
 ```
+<div align="center"> 
 ## 10. Comandos útiles de repaso
+</div>
+
 ```bash
 git status             # Ver el estado del repositorio
 git add archivo.txt    # Agregar un archivo específico
