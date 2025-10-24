@@ -7,6 +7,8 @@
 
 ![Git creada con AI](/img/git.jpg)
 
+ÍNDICE:
+
 1. [Git en local](local.md)
 2. [Ramas en local](ramasLocal.md)
 3. [Trabajar en Git con un repositorio Github](GitHub.md)
