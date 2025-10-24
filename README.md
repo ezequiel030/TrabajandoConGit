@@ -1,6 +1,6 @@
 # Trabajando con Git
 
-![Git creada con AI](git.jpg)
+![Git creada con AI](/img/git.jpg)
 
 1. [Git en local](local.md)
 2. [Ramas en local](ramasLocal.md)
