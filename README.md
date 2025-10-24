@@ -1,7 +1,7 @@
 
-<p style = "text-align: center;"> 
+<div align="center"> 
 # Trabajando con Git 
-</p>
+</div>
 
 
 ![Git creada con AI](/img/git.jpg)
