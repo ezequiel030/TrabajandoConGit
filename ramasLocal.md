@@ -21,8 +21,10 @@ Ejemplo:
 - `bugfix-footer`: rama donde corriges un error en el pie de página  
 
 ---
+<div align = "center">
 
 ## 2. Ver las ramas existentes
+</div>
 
 ```bash
 git branch
@@ -35,8 +37,10 @@ git branch
   login-feature
   bugfix-footer
 ```
+<div align = "center">
 
 ## 3. Crear una nueva rama
+</div>
 
 ***Para crear una nueva rama:***
 ```bash
@@ -47,8 +51,10 @@ git branch nombre-de-la-rama
 git branch nueva-funcion
 ```
 ***Esto crea la rama, pero no te cambia a ella todavía.***
+<div align = "center">
 
 ## 4. Cambiar de rama
+</div>
 
 ***Para moverte a otra rama:***
 ```bash
@@ -62,7 +68,11 @@ git checkout nueva-funcion
 ```bash
 git switch nombre-de-la-rama
 ```
+<div align = "center">
+
 ## 5. Crear y cambiar de rama en un solo paso
+</div>
+
 ```bash
 git checkout -b nombre-de-la-rama
 ```
@@ -71,8 +81,10 @@ git checkout -b nombre-de-la-rama
 git checkout -b login-feature
 ```
 ***Esto crea la rama y te cambia a ella al mismo tiempo.***
+<div align = "center">
 
 ## 6. Hacer commits en una rama
+</div>
 
 ***Mientras estés en una rama, los commits se guardan solo ahí:***
 ```bash
@@ -80,8 +92,10 @@ git add .
 git commit -m "Agregar nueva funcionalidad de login"
 ```
 ***Esto no afectará a la rama main hasta que las fusiones.***
+<div align = "center">
 
 ## 7. Fusionar una rama con la principal
+</div>
 
 ***Cuando termines de trabajar en una rama y quieras integrar los cambios a main:***
 
@@ -98,8 +112,10 @@ git merge nombre-de-la-rama
 git merge login-feature
 ```
 ***Si no hay conflictos, Git combinará los cambios automáticamente ✅***
+<div align = "center">
 
 ## 8. Resolver conflictos de fusión (merge conflicts)
+</div>
 
 ***A veces Git no puede fusionar automáticamente porque hubo cambios en las mismas líneas de código en ambas ramas.
 Git marcará los archivos en conflicto con símbolos como estos:***
@@ -118,7 +134,10 @@ Luego marcas el conflicto como resuelto:***
 git add archivo-conflictivo.txt
 git commit -m "Resolver conflicto de merge"
 ```
+<div align = "center">
+
 ## 9. Eliminar una rama (después de fusionar)
+</div>
 
 ***Cuando una rama ya no se necesita:***
 ```bash
@@ -133,7 +152,10 @@ git branch -d login-feature
 ```bash
 git branch -D nombre-de-la-rama
 ```
+<div align = "center">
+
 ## 10. Ver todas las ramas (locales y remotas)
+</div>
 
 ***Para ver solo las ramas locales:***
 ```bash
