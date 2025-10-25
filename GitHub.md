@@ -121,15 +121,15 @@ git checkout nombre-de-la-rama
 
 Una vez que termines una funcionalidad en una rama, lo ideal es fusionarla a main mediante un Pull Request.
 
-Sube tu rama al remoto (git push)
+- Sube tu rama al remoto (git push)
 
-Entra al repositorio en GitHub
+- Entra al repositorio en GitHub
 
-Verás un botón que dice “Compare & pull request”
+- Verás un botón que dice “Compare & pull request”
 
-Haz clic, revisa los cambios y crea el Pull Request
+- Haz clic, revisa los cambios y crea el Pull Request
 
-Otro colaborador (o tú mismo) puede aprobar y hacer Merge
+- Otro colaborador (o tú mismo) puede aprobar y hacer Merge
 
 Esto mantiene un flujo de trabajo limpio y controlado.
 <div align = "center">
