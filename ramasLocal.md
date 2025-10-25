@@ -29,7 +29,8 @@ Ejemplo:
 ```bash
 git branch
 ```
-***La rama actual se mostrará con un asterisco *.***
+
+La rama actual se mostrará con un asterisco *.
 
 ***Ejemplo:***
 ```bash
