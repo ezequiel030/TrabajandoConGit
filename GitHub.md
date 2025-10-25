@@ -162,3 +162,10 @@ git fetch                         # Obtener referencias sin fusionar
 git clone URL                     # Clonar un repositorio existente
 git push origin --delete rama     # Eliminar rama remota
 ```
+---
+
+<p align="center">
+  <a href="ramasLocal.md">⬅️ Anterior</a> |
+  <a href="README.md">🏠 Índice</a> |
+  <a href="colaborativa.md">➡️ Siguiente</a>
+</p>
