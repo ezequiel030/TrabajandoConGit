@@ -152,6 +152,7 @@ git merge upstream/main
 ```bash
 git rebase upstream/main
 ```
+
 <div align = "center">
 
 ## 9. Actualizar tu rama si el PR muestra conflictos
@@ -181,6 +182,7 @@ git push --force-with-lease origin feature/descripcion-corta
 ```
 
 --force-with-lease es más seguro que --force.
+
 <div align = "center">
 
 ## 10. Después de aceptar el Pull Request
