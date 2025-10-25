@@ -121,23 +121,23 @@ La opción -u establece el tracking entre la rama local y la remota.
 
 Antes de empezar a trabajar y antes de crear un PR, sincroniza para evitar conflictos:
 
-# Obtener cambios del original
+Obtener cambios del original
 ```bash
 git fetch upstream
 ```
-# Cambiar a tu main local
+Cambiar a tu main local
 ```bash
 git checkout main
 ```
-# Traer los cambios de upstream/main y fusionarlos en tu main
+Traer los cambios de upstream/main y fusionarlos en tu main
 ```bash
 git merge upstream/main
 ```
-# O alternativamente hacer rebase si prefieres historial lineal
+O alternativamente hacer rebase si prefieres historial lineal
 ```bash
 git rebase upstream/main
 ```
-# Subir los cambios sincronizados a tu fork en GitHub
+Subir los cambios sincronizados a tu fork en GitHub
 ```bash
 git push origin main
 ```
@@ -148,7 +148,7 @@ git checkout feature/descripcion-corta
 git fetch upstream
 git merge upstream/main
 ```
-# o
+o
 ```bash
 git rebase upstream/main
 ```
@@ -160,18 +160,19 @@ git rebase upstream/main
 
 Si tu PR muestra conflictos o si el repositorio original ha cambiado, actualiza tu rama local y vuelve a empujar:
 
-# desde tu rama de trabajo
+desde tu rama de trabajo
 ```bash
 git fetch upstream
 git merge upstream/main   # o git rebase upstream/main
 ```
-# resolver conflictos si aparecen:
-# editar archivos conflictivos, luego:
+resolver conflictos si aparecen:
+
+editar archivos conflictivos, luego:
 ```bash
 git add archivo-resuelto
 git commit -m "Resolver conflictos con upstream/main"
 ```
-# empujar la rama actualizada a tu fork
+empujar la rama actualizada a tu fork
 ```bash
 git push origin feature/descripcion-corta
 ```
@@ -206,45 +207,45 @@ Sincroniza tu main con upstream (ver sección 8).
 ## 11. Resumen de comandos útiles
 </div>
 
-# Clonar tu fork
+Clonar tu fork
 ```bash
 git clone URL_DE_TU_FORK
 cd proyecto
 ```
-# Añadir upstream (original)
+Añadir upstream (original)
 ```bash
 git remote add upstream URL_DEL_REPO_ORIGINAL
 git remote -v
 ```
-# Mantener fork sincronizado
+Mantener fork sincronizado
 ```bash
 git fetch upstream
 git checkout main
 git merge upstream/main
 git push origin main
 ```
-# Flujo para contribuir
+Flujo para contribuir
 ```bash
 git checkout -b feature/nombre
 ```
-# ... editar ...
+... editar ...
 ```bash
 git add .
 git commit -m "feat: descripción"
 git push -u origin feature/nombre
 ```
-# Abrir PR en GitHub
+Abrir PR en GitHub
 
-# Actualizar rama y resolver conflictos
+Actualizar rama y resolver conflictos
 ```bash
 git fetch upstream
 git merge upstream/main   # o git rebase upstream/main
 ```
-# resolver conflictos
+resolver conflictos
 ```bash
 git push origin feature/nombre
 ```
-# Limpiar ramas
+Limpiar ramas
 ```bash
 git branch -d feature/nombre
 git push origin --delete feature/nombre
