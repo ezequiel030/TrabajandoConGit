@@ -167,3 +167,11 @@ Para ver también las ramas remotas (si ya conectaste con GitHub):
 ```bash
 git branch -a
 ```
+---
+
+<p align="center">
+  <a href="local.md">⬅️ Anterior</a> |
+  <a href="README.md">🏠 Índice</a> |
+  <a href="GitHub.md">➡️ Siguiente</a>
+</p>
+
