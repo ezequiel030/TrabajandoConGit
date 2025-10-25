@@ -251,5 +251,5 @@ git pull               # Descargar cambios del remoto
 
 <p align="center">
   <a href="README.md">🏠 Índice</a> |
-  <a href="03-ramasLocal.md">➡️ Siguiente</a>
+  <a href="ramasLocal.md">➡️ Siguiente</a>
 </p>
