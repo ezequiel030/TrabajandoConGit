@@ -1,18 +1,25 @@
-# 🤝 Trabajar colaborativamente con *forks* y Pull Requests en GitHub
+<div align = "center">
+
+# Trabajar colaborativamente con *forks* y Pull Requests en GitHub
+</div>
 
 Cuando contribuyes a un proyecto en GitHub y no tienes permisos de escritura sobre el repositorio original, el flujo habitual es **hacer un fork**, trabajar en tu copia (fork), y enviar un **Pull Request (PR)** al repositorio original para pedir que acepten tus cambios.
 
 ---
+<div align = "center">
 
 ## 1. Hacer fork del repositorio (UI de GitHub)
+</div>
 
 1. Ve al repositorio original en GitHub (por ejemplo `https://github.com/propietario/proyecto.git`).  
 2. Haz clic en **Fork** (arriba a la derecha).  
 3. GitHub creará una copia del repositorio en tu cuenta: `https://github.com/tuusuario/proyecto.git`.
 
 ---
+<div align = "center">
 
 ## 2. Clonar tu fork a tu máquina local
+</div>
 
 Puedes clonar usando HTTPS o SSH.
 
@@ -29,7 +36,10 @@ Entra en la carpeta:
 ```bash
 cd proyecto
 ```
+<div align = "center">
+
 ## 3. Añadir el repositorio original como upstream
+</div>
 
 Para poder sincronizar los cambios del proyecto original (mantener tu fork actualizado) añade el remoto upstream:
 
@@ -49,8 +59,10 @@ git remote -v
 ```
 
 Deberías ver origin (tu fork) y upstream (el original).
+<div align = "center">
 
 ## 4. Crear una rama para tu cambio (nunca trabajes en main directamente)
+</div>
 
 Crea una rama con un nombre descriptivo:
 ```bash
@@ -64,8 +76,10 @@ feature/nueva-funcionalidad
 fix/correccion-bug
 
 docs/mejoras-readme
+<div align = "center">
 
 ## 5. Hacer tus cambios, añadir y commitear
+</div>
 
 Haz los cambios en tu editor, luego:
 ```bash
@@ -75,8 +89,10 @@ git commit -m "feat: descripción clara y corta del cambio"
 ```
 
 Consejo: escribe mensajes de commit claros y en imperativo.
+<div align = "center">
 
 ## 6. Subir la rama a tu fork (origin)
+</div>
 
 Empuja la rama a tu fork en GitHub:
 ```bash
@@ -84,8 +100,10 @@ git push -u origin feature/descripcion-corta
 ```
 
 La opción -u establece el tracking entre la rama local y la remota.
+<div align = "center">
 
 ## 7. Abrir el Pull Request en GitHub
+</div>
 
 - Ve a tu fork en GitHub. Verás un botón que sugiere crear un Compare & pull request para la rama que acabas de subir.
 
@@ -96,8 +114,10 @@ La opción -u establece el tracking entre la rama local y la remota.
 - Selecciona reviewers, labels, proyecto o milestone si corresponde.
 
 - Crea el Pull Request.
+<div align = "center">
 
 ## 8. Mantener tu fork sincronizado con el repositorio original
+</div>
 
 Antes de empezar a trabajar y antes de crear un PR, sincroniza para evitar conflictos:
 
@@ -132,7 +152,10 @@ git merge upstream/main
 ```bash
 git rebase upstream/main
 ```
+<div align = "center">
+
 ## 9. Actualizar tu rama si el PR muestra conflictos
+</div>
 
 Si tu PR muestra conflictos o si el repositorio original ha cambiado, actualiza tu rama local y vuelve a empujar:
 
@@ -158,8 +181,10 @@ git push --force-with-lease origin feature/descripcion-corta
 ```
 
 --force-with-lease es más seguro que --force.
+<div align = "center">
 
 ## 10. Después de aceptar el Pull Request
+</div>
 
 Cuando el PR sea mergeado en el repositorio original:
 
@@ -174,8 +199,11 @@ git branch -d feature/descripcion-corta
 ```
 
 Sincroniza tu main con upstream (ver sección 8).
+<div align = "center">
 
 ## 11. Resumen de comandos útiles
+</div>
+
 # Clonar tu fork
 ```bash
 git clone URL_DE_TU_FORK
