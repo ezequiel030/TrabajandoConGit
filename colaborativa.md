@@ -250,3 +250,11 @@ Limpiar ramas
 git branch -d feature/nombre
 git push origin --delete feature/nombre
 ```
+---
+
+<p align="center">
+  <a href="colaborativa.md">⬅️ Anterior</a> |
+  <a href="README.md">🏠 Índice</a> |
+  <a href="autor.md">➡️ Siguiente</a>
+</p>
+
